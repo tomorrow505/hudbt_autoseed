@@ -143,24 +143,6 @@ class Sheet:
 
         self.video = video
 
-    def set_property(self, prop, value):
-        if prop == 'font':
-            self.font = ImageFont.truetype(value[0], value[1])
-        elif prop == 'backgroundColour':
-            self.backgroundColour = value
-        elif prop == 'textColour':
-            self.textColour = value
-        elif prop == 'headerSize':
-            self.headerSize = value
-        elif prop == 'gridColumn':
-            self.gridColumn = value
-        elif prop == 'maxThumbSize':
-            self.maxThumbSize = value
-        elif prop == 'timestamp':
-            self.timestamp = value
-        else:
-            raise Exception('Invalid Sheet property')
-
     def make_grid(self):
         column = self.gridColumn
         row = self.video.thumbcount//column
