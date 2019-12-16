@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author:Chengli
+# Author:tomorrow505
 
 from tkinter import StringVar, E
 from tkinter.ttk import Label,  Button

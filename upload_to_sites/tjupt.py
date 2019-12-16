@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author:Chengli
+# Author:tomorrow505
 
 from common_info import extend_descr_after, domains, recommand_allow, extend_descr_before
 import re

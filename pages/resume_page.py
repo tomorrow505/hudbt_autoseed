@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author:Chengli
+# Author:tomorrow505
 
 import tkinter as tk
 from tkinter import ttk, StringVar, Frame, Scrollbar, LEFT, RIGHT, Y, Entry, Button

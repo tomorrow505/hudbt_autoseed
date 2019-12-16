@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author:Chengli
+# Author:tomorrow505
 
 
 from common_info import Asia_Country, Amer_Euro, extend_descr_after

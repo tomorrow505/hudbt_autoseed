@@ -1,4 +1,5 @@
-
+# -*- coding: utf-8 -*-
+# Author:tomorrow505
 
 from utils import common_methods
 from pages import auto_upload, reseed_panel, config_sites, login, config_rss, config_dl, descr_panel, hand_upload, \
