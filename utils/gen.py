@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Author:Chengli
+# Author:tomorrow505
 
 
 import re
@@ -9,8 +9,6 @@ import random
 from bs4 import BeautifulSoup
 from html2bbcode.parser import HTML2BBCode
 
-__version__ = "0.4.2"
-__author__ = "Rhilip"
 
 douban_format = [
     # (key name in dict. the format of key, string format) with order
@@ -49,28 +47,10 @@ imdb_format = [
     ('description', '\nIntroduction\n    {}\n')
 ]
 
-bangumi_format = [
-    ("cover", "[img]{}[/img]\n\n"),
-    ("story", "[b]Story: [/b]\n\n{}\n\n"),
-    ("staff", "[b]Staff: [/b]\n\n{}\n\n"),
-    ("cast", "[b]Cast: [/b]\n\n{}\n\n"),
-    ("alt", "(来源于 {} )\n")
-]
-
-steam_format = [
-    ("cover", "[img]{}[/img]\n\n"),
-    ('baseinfo', "【基本信息】\n\n{}\n"),
-    ('descr', "【游戏简介】\n\n{}\n\n"),
-    ('sysreq', "【配置需求】\n\n{}\n\n"),
-    ('screenshot', "【游戏截图】\n\n{}\n\n"),
-]
 
 support_list = [
     ("douban", re.compile("(https?://)?((movie|www)\.)?douban\.com/(subject|movie)/(?P<sid>\d+)/?")),
     ("imdb", re.compile("(https?://)?www\.imdb\.com/title/(?P<sid>tt\d+)")),
-    # ("3dm", re.compile("(https?://)?bbs\.3dmgame\.com/thread-(?P<sid>\d+)(-1-1\.html)?")),
-    ("steam", re.compile("(https?://)?(store\.)?steam(powered|community)\.com/app/(?P<sid>\d+)/?")),
-    ("bangumi", re.compile("(https?://)?(bgm\.tv|bangumi\.tv|chii\.in)/subject/(?P<sid>\d+)/?")),
 ]
 
 support_site_list = list(map(lambda x: x[0], support_list))
@@ -78,13 +58,7 @@ support_site_list = list(map(lambda x: x[0], support_list))
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                   'Chrome/61.0.3163.100 Safari/537.36 ',
-    'Cookie': '_vwo_uuid_v2=685DDBC801D6A89BBB22386CFA9B692F|73263770975bcbd08fac33bb7e5afbda; '
-              '__utmv=30149280.6700; gr_user_id=775597cb-8c90-4f81-83b4-48407ac54f79; douban-fav-remind=1; '
-              'bid=Hpb6J-lBybk; ll="118254"; push_noty_num=0; push_doumail_num=0; '
-              'viewed="1780792_1474773_26664095_1139237_26955264"; '
-              'ct=y; __utmc=30149280; dbcl2="67000032:82Hoapr7qGI"; ck=uoPD; '
-              '__utma=30149280.1644426765.1510561886.1558851050.1558852101.93; '
-              '__utmz=30149280.1558852101.93.80.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)',
+    'Cookie': '',
     "Accept-Language": "en,zh-CN;q=0.9,zh;q=0.8"
 }
 
@@ -147,8 +121,6 @@ class Gen(object):
             "success": False,
             "error": None,
             "format": "",
-            "copyright": "Powered by @{}".format(__author__),
-            "version": __version__
         }
 
     def gen(self, _debug=False):
@@ -159,7 +131,7 @@ class Gen(object):
                 self.ret["success"] = True if not self.ret.get("error") else False
             except Exception as err:
                 raw_error = self.ret["error"]
-                self.ret["error"] = "Internal error : {}, please connect @{}, thank you.".format(raw_error, __author__)
+                self.ret["error"] = "Internal error"
                 if _debug:
                     raise Exception("Internal error").with_traceback(err.__traceback__)
         return self.ret
