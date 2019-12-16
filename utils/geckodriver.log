@@ -1,0 +1,260 @@
+1561453005929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\CL\\AppData\\Local\\Temp\\rust_mozprofile.F0idI7lXTuAY"
+1561453006885	addons.webextension.{ab064475-e983-4998-a70e-6b9cf60fb668}	WARN	Loading extension '{ab064475-e983-4998-a70e-6b9cf60fb668}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1561453007831	Marionette	INFO	Listening on port 5195
+1561453008187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1561453008336	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheetUsingURIString]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup@resource://gre/modules/ExtensionContent.jsm:353:11
+close@resource://gre/modules/ExtensionContent.jsm:814:7
+inner-window-destroyed@resource://gre/modules/ExtensionContent.jsm:889:11
+observe@resource://gre/modules/ExtensionContent.jsm:905:5
+]]
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:360:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:360:13
+]]
+[Parent 5676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3372, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 3372, Chrome_ChildT[Child 9980, Chrome_ChildThread] WARNING: pipe [Parent 5676, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+1561453035196	Marionette	INFO	Stopped listening on port 5195
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8868
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1561453169051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\CL\\AppData\\Local\\Temp\\rust_mozprofile.Qt1ZSXjPCk86"
+*** You are running in headless mode.
+1561453169865	addons.webextension.{ab064475-e983-4998-a70e-6b9cf60fb668}	WARN	Loading extension '{ab064475-e983-4998-a70e-6b9cf60fb668}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1561453170654	Marionette	INFO	Listening on port 5322
+1561453170708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1561453171216	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+1561453227142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\CL\\AppData\\Local\\Temp\\rust_mozprofile.sE1ldTqVqWYm"
+*** You are running in headless mode.
+1561453227961	addons.webextension.{ab064475-e983-4998-a70e-6b9cf60fb668}	WARN	Loading extension '{ab064475-e983-4998-a70e-6b9cf60fb668}': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+1561453228907	Marionette	INFO	Listening on port 5408
+1561453229332	Marionette	WARN	TLS certificate errors will be ignored for this session
+1561453229531	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing version_name: An unexpected property was found in the WebExtension manifest.
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 1041: Error: WebExtension context not found!
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+Extension error: TypeError: topFrame is undefined moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js 35
+[[Exception stack
+onBeforeHeadersReceivedHandler@moz-extension://5d2c8810-840e-4c00-841e-4533a69e4751/csp.js:35:1
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:541:133
+fire@resource://gre/modules/ExtensionChild.jsm:994:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:997:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+[Parent 4364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 8308, Chrome_ChExiting due to channel error.
